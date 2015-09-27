@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+pic1:
+  img: "test.jpg"
+  category: "landscapes"
+  description: "Ipsum Ipsum Ipsum"
+
+pic2:
+  img: "your_face.png"
+  category: "selfies"
+  description: "Ipsum Ipsum Ipsum"
