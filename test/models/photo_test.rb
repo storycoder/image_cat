@@ -13,5 +13,7 @@ class PhotoTest < ActiveSupport::TestCase
 	should validate_presence_of(:img)
 	should validate_presence_of(:category)
 	should validate_presence_of(:description)
-	
+
+	should belong_to(:category)
+
 end
