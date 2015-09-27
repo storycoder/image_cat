@@ -4,6 +4,7 @@ pic1:
   img: "test.jpg"
   category: "landscapes"
   description: "Ipsum Ipsum Ipsum"
+  
 
 pic2:
   img: "your_face.png"
