@@ -1,0 +1,19 @@
+<h1>Photos</h1>
+<table>
+	<thead>
+		<tr>
+			<th>Img</th>
+			<th>Category</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<% @photos.each do |photo| %>
+			<tr>
+				<td><%= photo.img %></td>
+				<td><%= photo.category %></td>
+				<td><%= photo.description %></td>
+			</tr>
+		<% end %>
+	</tbody>
+</table>
