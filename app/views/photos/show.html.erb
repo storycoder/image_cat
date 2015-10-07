@@ -1,2 +1,7 @@
-<h1>Photos#show</h1>
-<p>Find me in app/views/photos/show.html.erb</p>
+<h1>Image</h1>
+
+<p><strong>Pic:</strong> <%= @photo.pic %></p>
+<p><strong></strong> <%= @photo.category %></p>
+<p><strong></strong> <%= @photo.description %></p>
+
+<%= link_to 'Back to Your Current Image Cat', photos_path %>

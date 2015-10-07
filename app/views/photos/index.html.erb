@@ -2,7 +2,7 @@
 <table>
 	<thead>
 		<tr>
-			<th>Img</th>
+			<th>Pic</th>
 			<th>Category</th>
 			<th>Description</th>
 		</tr>
@@ -10,10 +10,11 @@
 	<tbody>
 		<% @photos.each do |photo| %>
 			<tr>
-				<td><%= photo.img %></td>
+				<td><%= photo.pic %></td>
 				<td><%= photo.category %></td>
 				<td><%= photo.description %></td>
 			</tr>
 		<% end %>
 	</tbody>
 </table>
+<%= link_to 'Add Your Image', new_photo_path %>
