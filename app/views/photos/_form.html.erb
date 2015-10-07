@@ -1,7 +1,7 @@
 <%= form_for @photo, :html  => {:multipart => true } do |f| %>
 
 	<%= f.label :pic %>
-	<%= f.file_field :pics, multiples: true  %>
+	<%= f.file_field :pic  %>
 
 	<%= f.label :category %>
 	<%= f.text_field :category %>
